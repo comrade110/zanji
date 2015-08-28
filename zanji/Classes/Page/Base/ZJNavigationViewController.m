@@ -1,24 +1,26 @@
 //
-//  ZJTabbarViewController.m
+//  ZJNavigationViewController.m
 //  zanji
 //
-//  Created by xiang-chen on 15/8/19.
+//  Created by xiang-chen on 15/8/28.
 //  Copyright (c) 2015年 chx. All rights reserved.
 //
 
-#import "ZJTabbarViewController.h"
 #import "ZJNavigationViewController.h"
+#import "UIImage+Color.h"
+#import "FXBlurView.h"
 
-@interface ZJTabbarViewController ()
+@interface ZJNavigationViewController ()
 
 @end
 
-@implementation ZJTabbarViewController
+@implementation ZJNavigationViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    [self.navigationBar setBackgroundImage:[[UIImage imageFromContextWithColor:[UIColor colorWithWhite:0.f alpha:.0f]] blurredImageWithRadius:50.f iterations:100 tintColor:[UIColor blackColor]] forBarMetrics:UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,8 +37,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController{
-    
-    return YES;
-}
+
 @end

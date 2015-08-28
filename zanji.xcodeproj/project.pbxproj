@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3CE97721B90019000A19D02 /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE97711B90019000A19D02 /* ZJViewController.m */; };
+		D3CE97751B9001C100A19D02 /* ZJHotHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE97741B9001C100A19D02 /* ZJHotHomeViewController.m */; };
+		D3CE97781B9001E400A19D02 /* BaseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE97771B9001E400A19D02 /* BaseConfig.m */; };
+		D3CE977C1B90034E00A19D02 /* HTTPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE977B1B90034E00A19D02 /* HTTPEngine.m */; };
+		D3CE977F1B90333700A19D02 /* ZJNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE977E1B90333700A19D02 /* ZJNavigationViewController.m */; };
+		D3CE97811B90428F00A19D02 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3CE97801B90428F00A19D02 /* bg.jpg */; };
+		D3CE97851B90487100A19D02 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE97841B90487100A19D02 /* FXBlurView.m */; };
 		D3F878501B8424F3000E0018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F8784F1B8424F3000E0018 /* main.m */; };
 		D3F878531B8424F3000E0018 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F878521B8424F3000E0018 /* AppDelegate.m */; };
 		D3F878561B8424F3000E0018 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F878551B8424F3000E0018 /* ViewController.m */; };
@@ -158,6 +165,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3CE97701B90019000A19D02 /* ZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
+		D3CE97711B90019000A19D02 /* ZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
+		D3CE97731B9001C100A19D02 /* ZJHotHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHotHomeViewController.h; sourceTree = "<group>"; };
+		D3CE97741B9001C100A19D02 /* ZJHotHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHotHomeViewController.m; sourceTree = "<group>"; };
+		D3CE97761B9001E400A19D02 /* BaseConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfig.h; sourceTree = "<group>"; };
+		D3CE97771B9001E400A19D02 /* BaseConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfig.m; sourceTree = "<group>"; };
+		D3CE977A1B90034E00A19D02 /* HTTPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPEngine.h; sourceTree = "<group>"; };
+		D3CE977B1B90034E00A19D02 /* HTTPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPEngine.m; sourceTree = "<group>"; };
+		D3CE977D1B90333700A19D02 /* ZJNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNavigationViewController.h; sourceTree = "<group>"; };
+		D3CE977E1B90333700A19D02 /* ZJNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNavigationViewController.m; sourceTree = "<group>"; };
+		D3CE97801B90428F00A19D02 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		D3CE97831B90487100A19D02 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		D3CE97841B90487100A19D02 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
 		D3F8784A1B8424F3000E0018 /* zanji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zanji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F8784E1B8424F3000E0018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3F8784F1B8424F3000E0018 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -460,6 +480,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3CE976F1B90017000A19D02 /* HotZJ */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE97731B9001C100A19D02 /* ZJHotHomeViewController.h */,
+				D3CE97741B9001C100A19D02 /* ZJHotHomeViewController.m */,
+			);
+			path = HotZJ;
+			sourceTree = "<group>";
+		};
+		D3CE97791B9002F600A19D02 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE977A1B90034E00A19D02 /* HTTPEngine.h */,
+				D3CE977B1B90034E00A19D02 /* HTTPEngine.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D3CE97821B90487100A19D02 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE97831B90487100A19D02 /* FXBlurView.h */,
+				D3CE97841B90487100A19D02 /* FXBlurView.m */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
 		D3F878411B8424F3000E0018 = {
 			isa = PBXGroup;
 			children = (
@@ -527,6 +574,7 @@
 			isa = PBXGroup;
 			children = (
 				D3F878741B8426F3000E0018 /* Page */,
+				D3CE97791B9002F600A19D02 /* Data */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -534,6 +582,7 @@
 		D3F878741B8426F3000E0018 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				D3CE976F1B90017000A19D02 /* HotZJ */,
 				D3F878751B8426F3000E0018 /* Base */,
 			);
 			path = Page;
@@ -544,6 +593,10 @@
 			children = (
 				D3F87A591B8468EC000E0018 /* ZJTabbarViewController.h */,
 				D3F87A5A1B8468EC000E0018 /* ZJTabbarViewController.m */,
+				D3CE97701B90019000A19D02 /* ZJViewController.h */,
+				D3CE97711B90019000A19D02 /* ZJViewController.m */,
+				D3CE977D1B90333700A19D02 /* ZJNavigationViewController.h */,
+				D3CE977E1B90333700A19D02 /* ZJNavigationViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -551,7 +604,10 @@
 		D3F878761B8426F3000E0018 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				D3CE97821B90487100A19D02 /* FXBlurView */,
 				D3F878771B8426F3000E0018 /* Libs */,
+				D3CE97761B9001E400A19D02 /* BaseConfig.h */,
+				D3CE97771B9001E400A19D02 /* BaseConfig.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -581,6 +637,7 @@
 		D3F878781B8426F3000E0018 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				D3CE97801B90428F00A19D02 /* bg.jpg */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -1383,6 +1440,7 @@
 				D3F878591B8424F3000E0018 /* Main.storyboard in Resources */,
 				D3F87A051B84514D000E0018 /* ToolNetWorkSolveVC.xib in Resources */,
 				D3F8790C1B842D47000E0018 /* checkMark.png in Resources */,
+				D3CE97811B90428F00A19D02 /* bg.jpg in Resources */,
 				D3F8790F1B842D47000E0018 /* crossMark@2x.png in Resources */,
 				D3F87A031B84514D000E0018 /* NetWork.bundle in Resources */,
 				D3F8785E1B8424F3000E0018 /* LaunchScreen.xib in Resources */,
@@ -1423,6 +1481,7 @@
 				D3F8797B1B842F46000E0018 /* UIButton+WebCache.m in Sources */,
 				D3F878561B8424F3000E0018 /* ViewController.m in Sources */,
 				D3F879B31B844F10000E0018 /* UIImageView+AFNetworking.m in Sources */,
+				D3CE97781B9001E400A19D02 /* BaseConfig.m in Sources */,
 				D3F87A091B84514D000E0018 /* UINavigationController+Appearance.m in Sources */,
 				D3F8796A1B842F46000E0018 /* MASConstraint.m in Sources */,
 				D3F87A161B84514D000E0018 /* BaseGradientView.m in Sources */,
@@ -1438,6 +1497,7 @@
 				D3F879751B842F46000E0018 /* SDWebImageCompat.m in Sources */,
 				D3F87A131B84514D000E0018 /* NSObject+Select.m in Sources */,
 				D3F879AC1B844F10000E0018 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				D3CE977C1B90034E00A19D02 /* HTTPEngine.m in Sources */,
 				D3F879771B842F46000E0018 /* SDWebImageDownloader.m in Sources */,
 				D3F87A331B8451C2000E0018 /* FMDatabaseAdditions.m in Sources */,
 				D3F87A121B84514D000E0018 /* NSObject+Save.m in Sources */,
@@ -1449,6 +1509,7 @@
 				D3F87A551B845233000E0018 /* NSString+ArcFile.m in Sources */,
 				D3F879A91B844F10000E0018 /* RDVTabBarController.m in Sources */,
 				D3F87A301B8451C2000E0018 /* CoreFMDB.m in Sources */,
+				D3CE977F1B90333700A19D02 /* ZJNavigationViewController.m in Sources */,
 				D3F878CA1B84294C000E0018 /* UIDevice+Extend.m in Sources */,
 				D3F8796B1B842F46000E0018 /* MASConstraintMaker.m in Sources */,
 				D3F878531B8424F3000E0018 /* AppDelegate.m in Sources */,
@@ -1481,7 +1542,9 @@
 				D3F87A151B84514D000E0018 /* NSString+Stackoverflow.m in Sources */,
 				D3F878CC1B84294C000E0018 /* UIImage+Color.m in Sources */,
 				D3F87A491B845222000E0018 /* NSString+CoreHttp.m in Sources */,
+				D3CE97751B9001C100A19D02 /* ZJHotHomeViewController.m in Sources */,
 				D3F878CF1B84294C000E0018 /* UIImage+FixOrientation.m in Sources */,
+				D3CE97851B90487100A19D02 /* FXBlurView.m in Sources */,
 				D3F87A181B84514D000E0018 /* BaseTableViewCell.m in Sources */,
 				D3F878C41B84294C000E0018 /* NSArray+Extend.m in Sources */,
 				D3F879711B842F46000E0018 /* View+MASAdditions.m in Sources */,
@@ -1517,6 +1580,7 @@
 				D3F8790A1B842D47000E0018 /* AMBouncingView.m in Sources */,
 				D3F878D21B84294C000E0018 /* UIView+Extend.m in Sources */,
 				D3F8790B1B842D47000E0018 /* AMSmoothAlertView.m in Sources */,
+				D3CE97721B90019000A19D02 /* ZJViewController.m in Sources */,
 				D3F879811B842FAB000E0018 /* UIView+Frame.m in Sources */,
 				D3F879B01B844F10000E0018 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				D3F87A061B84514D000E0018 /* ToolNetWorkView.m in Sources */,
@@ -1728,6 +1792,7 @@
 				D3F8786F1B8424F3000E0018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3F878701B8424F3000E0018 /* Build configuration list for PBXNativeTarget "zanjiTests" */ = {
 			isa = XCConfigurationList;
@@ -1736,6 +1801,7 @@
 				D3F878721B8424F3000E0018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

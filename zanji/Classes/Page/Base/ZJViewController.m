@@ -1,24 +1,22 @@
 //
-//  ZJTabbarViewController.m
+//  ZJViewController.m
 //  zanji
 //
-//  Created by xiang-chen on 15/8/19.
+//  Created by xiang-chen on 15/8/28.
 //  Copyright (c) 2015年 chx. All rights reserved.
 //
 
-#import "ZJTabbarViewController.h"
-#import "ZJNavigationViewController.h"
+#import "ZJViewController.h"
 
-@interface ZJTabbarViewController ()
+@interface ZJViewController ()
 
 @end
 
-@implementation ZJTabbarViewController
+@implementation ZJViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,8 +33,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController{
-    
-    return YES;
-}
+
 @end
